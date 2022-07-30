@@ -3,21 +3,47 @@
     justify-content: center;
     flex-direction: row;
     height: 100vh;
+    
 
-    .text_container {
+    .presentation_container {
         width: 40%;
         display: flex;
-        justify-content: center;
         flex-direction: column;
+        justify-content: center;
 
-        .text_wrapper {
-            margin-left: auto;
-            margin-right: auto;
-            border-left: 3px solid orange;
+        .top_container {
+            height: 50%;
+            display: flex;
+            justify-content: center;
 
-            .text {
-                margin: auto;
-                padding-left: 15px;
+            .text_wrapper {
+                align-self: flex-end;
+
+                .text {
+                    margin: auto;
+                    padding-left: 15px;
+                    border-left: 3px solid orange;
+                }
+            }
+        }
+
+        .bottom_container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            height: 50%;
+            padding-top: 5%;
+
+            .knowme_button {
+                background-color: transparent;
+                border-color: orange;
+                border-radius: 30px;
+                cursor: pointer;
+                padding-inline: 30px;
+                align-self: flex-start;
+                padding-block: 10px;
+                color: white;
+                margin-right: 10%;
             }
         }
     }
