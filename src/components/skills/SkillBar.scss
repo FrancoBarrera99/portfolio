@@ -1,0 +1,36 @@
+.skillbar_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 5px;
+
+    .title {
+        width: 20%;
+        text-align: center;
+    }
+    .progress_bar {
+        width: 80%;
+        border-radius: 15px;
+        background: #6e6e6e;
+        border: solid 1px orange;
+        padding: 2px;
+
+        .progress {
+            display: flex;
+            justify-content: flex-end;
+            overflow: hidden;
+            border-radius: 10px;
+            background: orange;
+            width: 0;
+            height: 100%;
+            transition: width 1.5s;
+
+            .percentage {
+                margin-left: auto;
+                margin-right: 0.5rem;
+                line-height: 20px;
+            }
+        }
+    }
+}

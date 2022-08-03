@@ -1,5 +1,4 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./components/header/Header.jsx";
 import Banner from "./components/banner/Banner";
 import Skills from "./components/skills/Skills";
@@ -14,9 +13,13 @@ const App = () => {
     <div className='app'>
       <Header />
       <Banner />
+      <hr/>
       <Skills />
+      <hr/>
       <Projects />
+      <hr/>
       <Jobs />
+      <hr/>
       <Footer />
     </div>
   );

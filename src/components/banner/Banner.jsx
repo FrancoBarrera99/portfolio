@@ -10,7 +10,7 @@ const Banner = () => {
         <div className='top_container'>
           <div className='text_wrapper'>
             <h1 className='text'>Franco Barrera</h1>
-            <h5 className='text'>Front-end Web Developer</h5>
+            <h4 className='text'>Front-end Web Developer</h4>
           </div>
         </div>
         <div className='bottom_container'>

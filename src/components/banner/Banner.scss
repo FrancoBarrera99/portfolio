@@ -3,7 +3,7 @@
     justify-content: center;
     flex-direction: row;
     height: 100vh;
-    
+    font-size: x-large;
 
     .presentation_container {
         width: 40%;
@@ -44,6 +44,8 @@
                 padding-block: 10px;
                 color: white;
                 margin-right: 10%;
+                font-family: 'Fredoka', sans-serif;
+                font-size: large;
             }
         }
     }

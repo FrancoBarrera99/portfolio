@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 3% 0;
+
+    .title {
+        padding: 10px;
+    }
+
+    .subtitle {}
+
+    .skills_container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 10px 0;
+        border: 1px solid;
+        border-radius: 15px;
+        padding-inline: 1%;
+        margin: 1%;
+    }
+
+    .cv_button {
+        background-color: transparent;
+        border-radius: 30px;
+        border: 2px solid orange;
+        padding-inline: 30px;
+        padding-block: 10px;
+        color: white;
+        font-family: 'Fredoka', sans-serif;
+        font-size: large;
+        text-decoration: none;
+    }
+
+}
