@@ -1,0 +1,47 @@
+.projectcard_container {
+    background-color:#3b3b3b;
+    border-radius: 20px;
+    border: 3px solid orange;
+    box-shadow: 0 0 10px grey;
+    position: relative;
+    cursor: pointer;
+
+    .img_container{
+        position: relative;
+
+        .card_img{
+            display: block;
+            border-radius: 20px;
+            max-width: 100%;
+            height: 80%;
+        }
+    }
+    
+    .card_title {
+        padding: 10px;
+        position: absolute;
+        top:0;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+    }
+
+    .card_link_icon {
+        position: absolute;
+        bottom: 3%;
+        right: 3%;
+        visibility: hidden;
+    }
+}
+
+.projectcard_container:hover{
+    background-color: blueviolet;
+    transition: background-color 500ms ease-out;
+
+    .img_container{
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+    
+    .card_link_icon {
+        visibility: visible;
+    }
+}
