@@ -9,8 +9,8 @@ const Banner = () => {
       <div className='presentation_container'>
         <div className='top_container'>
           <div className='text_wrapper'>
-            <h1 className='text'>Franco Barrera</h1>
-            <h4 className='text'>Front-end Web Developer</h4>
+            <h5 className='text'>Hi, I'm Franco Barrera</h5>
+            <h1 className='text'>Software Developer</h1>
           </div>
         </div>
         <div className='bottom_container'>
