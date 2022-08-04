@@ -11,31 +11,31 @@ const Projects = () => {
     {
       id:1,
       src: Image,
-      name: "Projecto 1",
+      name: "Project 1",
       link: "https://www.google.com.ar"
     },
     {
       id:2,
       src: Image,
-      name: "Projecto 2",
+      name: "Project 2",
       link: "https://www.google.com.ar"
     },
     {
       id:3,
       src: Image,
-      name: "Projecto 3",
+      name: "Project 3",
       link: "https://www.google.com.ar"
     },
     {
       id:4,
       src: Image,
-      name: "Projecto 4",
+      name: "Project 4",
       link: "https://www.google.com.ar"
     },
     {
       id:5,
       src: Image,
-      name: "Projecto 5",
+      name: "Project 5",
       link: "https://www.google.com.ar"
     },
   ]

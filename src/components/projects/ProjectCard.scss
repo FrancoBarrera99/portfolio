@@ -4,6 +4,7 @@
     border: 3px solid orange;
     box-shadow: 0 0 10px grey;
     position: relative;
+    overflow: hidden;
     cursor: pointer;
 
     .img_container{
@@ -11,9 +12,7 @@
 
         .card_img{
             display: block;
-            border-radius: 20px;
             max-width: 100%;
-            height: 80%;
         }
     }
     
@@ -21,6 +20,7 @@
         padding: 10px;
         position: absolute;
         top:0;
+        font-size: 1rem;
         writing-mode: vertical-lr;
         text-orientation: upright;
     }
@@ -31,11 +31,16 @@
         right: 3%;
         visibility: hidden;
     }
+
+    transition: transform 300ms, background-color 500ms;
+    transition-timing-function: ease-in-out;
 }
+
+
 
 .projectcard_container:hover{
     background-color: blueviolet;
-    transition: background-color 500ms ease-out;
+    transform: scale(1.1,1.1);
 
     .img_container{
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
