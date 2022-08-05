@@ -1,0 +1,74 @@
+.about_wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url('../../assets/Tom-Shelby.png');
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: auto;
+    height: 65vh;
+
+    .about_left {
+        width: 55%;
+        text-align: justify;
+        margin: 15% 5% 0 10%;
+
+
+        .about_title {
+            font-size: 2.5em;
+            margin: 2% 0;
+        }
+
+        .about_left_divider{
+            width: 50%;
+            margin: 5% 0;
+        }
+        
+        .about_social {
+            display: flex;
+
+            .about_social_icon {
+                display: flex;
+                margin: 0 1%;
+                border: solid 1px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                align-items: center;
+                justify-content: center;
+                font-size: 1rem;
+                transition: transform 200ms;
+                transition-timing-function: ease-in-out;
+            }
+        }
+    }
+
+    .about_right {
+        width: 45%;
+        margin: 0 5%;
+        padding-left: 15%;
+
+        .about_item_wrapper{
+            width: 100%;
+
+            .about_item_container {
+                width: auto;
+                display: flex;
+                flex-direction: column;
+                margin: 3% 0;
+
+                .about_item_content{
+                    color: orange;
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+
+.about_social_icon:hover {
+    transform: scale(1.3,1.3);
+}

@@ -6,13 +6,6 @@ import './ProjectCard.scss'
 
 const ProjectCard = ({src, name, link}) => {
 
-  let card = document.getElementsByClassName("projectcard_container")
-
-  document.onmousemove = () =>{
-
-
-  }
-
   return (
     <div className='projectcard_container' onClick={() => {window.open(link)}}>
         <div className="img_container">
