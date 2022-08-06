@@ -1,11 +1,11 @@
 import React from 'react'
-import myImage from '../../assets/yo.png'
+import myImage from '../../assets/espaldas.png'
 
 import './Banner.scss'
 
 const Banner = () => {
   return (
-    <div className='banner'>
+    <div id='banner' className='banner'>
       <div className='presentation_container'>
         <div className='top_container'>
           <div className='text_wrapper'>
