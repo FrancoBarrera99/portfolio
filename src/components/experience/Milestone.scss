@@ -1,0 +1,33 @@
+.milestone {
+    padding: 2%;
+    max-width: 35vw;
+
+    .milestone_bead {
+        position: absolute;
+        display: block;
+        content: '';
+        height: 0.75rem;
+        width: 0.75rem;
+        border-radius: 50%;
+        background-color: orange;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .milestone_container {
+
+        .milestone_title {
+            font-size: 2rem;
+            color: orange;
+        }
+
+        .milestone_date {
+            font-style: oblique;
+            margin: 1% 0;
+        }
+
+        .milestone_description {
+            text-align: justify;
+        }
+    }
+}

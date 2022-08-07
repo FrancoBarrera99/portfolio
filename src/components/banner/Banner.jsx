@@ -14,7 +14,8 @@ const Banner = () => {
           </div>
         </div>
         <div className='bottom_container'>
-          <button className='knowme_button'> Get to know me </button>
+          <h5 className='scroll_text'>Scroll down</h5>
+          <div className='scroll_line'></div>
         </div>
       </div>
       <div className='image_container'>

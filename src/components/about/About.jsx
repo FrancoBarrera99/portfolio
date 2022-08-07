@@ -56,6 +56,10 @@ const About = () => {
                             <h4 className='about_item_title'>Experience</h4>
                             <h2 className='about_item_content'>+1 Year</h2>
                         </div>
+                        <div className='about_item_container'>
+                            <h4 className='about_item_title'>Languajes</h4>
+                            <h2 className='about_item_content'>Spanish and English</h2>
+                        </div>
                     </div>
                 </div>
             </div>
