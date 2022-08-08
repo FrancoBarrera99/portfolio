@@ -15,7 +15,6 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-image: radial-gradient(circle,#3b3b3b, #252525) !important;
   color: rgb(228, 228, 228) !important;
   font-family: 'Fredoka', sans-serif;
 }
@@ -31,11 +30,9 @@ h3, h4, h5, h6 {
 }
 
 .app {
-  margin-top: 3%;
-  margin-left: 2%;
-  margin-right: 2%;
-  background-color: rgb(22, 22, 22);
-  border-radius: 50px 50px 0px 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-image: radial-gradient(circle,#222222, rgb(22, 22, 22)) !important;
   overflow: hidden;
 }
 

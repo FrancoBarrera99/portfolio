@@ -42,9 +42,9 @@ const Projects = () => {
 
   return (
     <div id='projects' className='projects'>
-      <h1 className='projects_title'>My recent work</h1>
+      <h1 className='projects_title'>&lt;Projects&gt;</h1>
       <div className='cards_grid'>
-        {projects.map((project) => {
+        { projects.map((project) => {
             return (<ProjectCard 
             key={project.id}
             src={project.src}
@@ -53,6 +53,7 @@ const Projects = () => {
             />)
           })}
       </div>
+      <h1 className='projects_title'>&lt;Projects/&gt;</h1>
     </div>
   )
 }

@@ -43,8 +43,7 @@ const Skills = () => {
 
   return (
     <div id='skills' className='skills'>
-      <h1 className='title'>Skills</h1>
-      <h3 className='subtitle'>Check out my skills</h3>
+      <h1 className='skills_title'>&lt;Skills&gt;</h1>
       <div className="skills_container">
         {skills.map((skill) => {
           return (<SkillBar
@@ -55,6 +54,7 @@ const Skills = () => {
         })}
       </div>
       <a className='cv_button' href={CV} download='CV - Franco Barrera.pdf'> Download my Resume </a>      
+      <h1 className='skills_title'>&lt;Skills/&gt;</h1>
     </div>
   )
 }

@@ -1,22 +1,29 @@
 .projects{
-    padding: 5% 0;
     width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: column;
-    align-items: center;
 
-    .projects_title{
-        height: 15%;
+    .projects_title {
+        padding: 5% 5% 1% 5%;
+        opacity: 0.5;
+        font-size: 3rem;
+        color: orange;
+    }
+
+    .projects_title:last-of-type{
+        padding: 1% 5% 2.5% 5%;
     }
 
     .cards_grid {
+        align-self: center;
+        padding: 5%;
         height: 85%;
         width: 90%;
         display: grid;
         place-items: center center;
         gap: 30px 30px;
-        padding: 20px;
+        padding: 10 10% ;
         grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
     }
 }

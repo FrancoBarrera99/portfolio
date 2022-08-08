@@ -5,6 +5,7 @@
     width: 100%;
     top: 0;
     color: white;
+
     .brand_logo{
         width: 20%;
         display: flex;
@@ -12,9 +13,10 @@
         padding: 10px;
         font-family: Tangerine, sans-serif;
         font-size: xx-large;
+        color: orange;
     }
     .nav_buttons{
-        width: 60%;
+        width: 40%;
         display: flex;
         justify-content: center;
         .nav_button{

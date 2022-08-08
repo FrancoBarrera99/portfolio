@@ -14,15 +14,10 @@ const App = () => {
     <div className='app'>
       <Header />
       <Banner />
-      <hr/>
       <Projects />
-      <hr/>
       <Skills />
-      <hr/>
       <About/>
-      <hr/>
       <Experience />
-      <hr/>
       <Footer />
     </div>
   );

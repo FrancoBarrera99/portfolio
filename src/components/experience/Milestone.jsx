@@ -6,7 +6,7 @@ const Milestone = ({Organization, Title, Date, Description}) => {
   return (
     <div className='milestone'>
         <div className="milestone_bead"></div>
-        <div className="milestone_container">
+        <div id='milestone_container' className="milestone_container">
             <h3 className='milestone_organization'>{Organization}</h3>
             <h3 className='milestone_title'>{Title}</h3>
             <p className='milestone_date'>{Date}</p>

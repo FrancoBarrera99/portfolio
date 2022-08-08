@@ -4,10 +4,17 @@
     align-items: center;
     justify-content: center;
     height: fit-content;
-    margin: 5% 0;
 
-    .experience_title{
-        margin-bottom: 5%;
+    .experience_title {
+        padding: 2.5% 5% 1% 5%;
+        opacity: 0.5;
+        font-size: 3rem;
+        color: orange;
+        align-self: flex-start;
+    }
+
+    .experience_title:last-of-type{
+        padding: 1% 5% 2.5% 5%;
     }
 
     .experience_timeline{
@@ -16,6 +23,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 5% 0;
 
         .experience_line {
             position: absolute;
