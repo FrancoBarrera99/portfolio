@@ -30,24 +30,38 @@
         .bottom_container {
             width: 100%;
             display: flex;
-            justify-content: center;
             height: 50%;
             padding-top: 5%;
-            flex-direction: column;
+            padding-left: 35%;
+            padding-right: 35%;
             align-items: center;
             position: relative;
 
-            .scroll_text {
-               
-            }
-
             .scroll_line {
                 position: absolute;
-                left: calc(50% - 1px);
-                width: 2px;
-                top: 300px;
-                bottom: 0px;
-                background-color: white;
+                border-bottom: 2px solid white;
+                width: 65%;
+                left: -35%;
+            }
+
+            .about_social {
+                display: flex;
+                width: 100%;
+                justify-content: space-around;
+    
+                .about_social_icon {
+                    display: flex;
+                    margin: 0 1%;
+                    border: solid 1px;
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 1rem;
+                    transition: transform 200ms;
+                    transition-timing-function: ease-in-out;
+                }
             }
         }
     }
@@ -62,7 +76,12 @@
         .face_image {
             flex-shrink: 0;
             min-width: 100%;
-            min-height: 100%
+            -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+            mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
         }
     }
+}
+
+.about_social_icon:hover {
+    transform: scale(1.3,1.3);
 }
