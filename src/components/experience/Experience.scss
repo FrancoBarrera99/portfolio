@@ -60,10 +60,28 @@
 
         .milestone {
             margin: 5% 55% 5% 10%;
+
+            .milestone_container {
+                opacity: 0;
+                transform: translateX(-100%);
+                transition: 750ms all ease-in-out;
+            }
+            .milestone_container.active {
+                transform: translateX(0%);
+                opacity: 1;
+            }
         }
 
         .milestone:nth-of-type(odd) {
             margin: 5% 10% 5% 55%;
+
+            .milestone_container {
+                transform: translateX(100%);
+            }
+            .milestone_container.active {
+                transform: translateX(0%);
+                opacity: 1;
+            }
         }
     }
 }

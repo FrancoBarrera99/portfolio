@@ -22,6 +22,27 @@ const Experience = () => {
     }
   ]
 
+  const reveal = () => {
+
+    let reveals = document.querySelectorAll(".milestone_container")
+
+    for (let i = 0; i < reveals.length; i++) {
+
+      let windowHeight = window.innerHeight;
+      let elementTop = reveals[i].getBoundingClientRect().top;
+      let elementVisible = 100;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+
+  }
+
+  window.addEventListener("scroll", reveal)
+
   return (
     <div id='experience' className='experience'>
       <h1 className='experience_title'>&lt;MyJourney&gt;</h1>
