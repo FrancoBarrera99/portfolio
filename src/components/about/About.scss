@@ -1,6 +1,4 @@
 .about{
-
-
     .about_title {
         padding: 2.5% 5% 1% 5%;
         opacity: 0.5;
@@ -76,6 +74,46 @@
                     .about_item_content{
                         color: orange;
                         font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .about{
+        .about_container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: fit-content;
+
+            .about_img {
+                top: 10%;
+            }
+
+            .about_left {
+                margin: 0;
+                margin-top: 500px;
+                display: flex;
+                flex-direction: column;
+
+                .about_left_divider{
+                    width: 100%;
+                }
+    
+                .cv_button {
+                    align-self: center;
+                    text-align: center;
+                }
+            }
+
+            .about_right {
+                padding: 0;
+                .about_item_wrapper{
+                    .about_item_container {
+                        text-align: center;
                     }
                 }
             }
