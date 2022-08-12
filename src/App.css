@@ -32,7 +32,7 @@ h3, h4, h5, h6 {
 .app {
   padding-left: 10%;
   padding-right: 10%;
-  background-image: radial-gradient(circle,#222222, rgb(22, 22, 22)) !important;
+  background-image: linear-gradient(135deg, #000 25%, #222222 25%, #222222 50%, #000 50%, #000 75%, #222222 75%, #222222);
   overflow: hidden;
 }
 

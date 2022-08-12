@@ -1,5 +1,4 @@
 import React from 'react'
-import myImage from '../../assets/espaldas.png'
 import { BsLinkedin, BsWhatsapp, BsGithub } from 'react-icons/bs'
 
 
@@ -17,33 +16,33 @@ const Banner = () => {
         </div>
         <div className='bottom_container'>
           <div className='about_social'>
-                        <a
-                            href='https://www.linkedin.com/in/franco-barrera-06a94b20a/'
-                            target="_blank" rel='noreferrer'
-                            style={{ color: '#0072b1' }}
-                            className='about_social_icon'>
-                            <BsLinkedin />
-                        </a>
-                        <a
-                            href='https://github.com/FrancoBarrera99'
-                            target="_blank" rel='noreferrer'
-                            style={{ color: '#800080' }}
-                            className='about_social_icon'>
-                            <BsGithub />
-                        </a>
-                        <a
-                            href='https://api.whatsapp.com/send?phone=5493764392192'
-                            target="_blank" rel='noreferrer'
-                            style={{ color: '#25D366' }}
-                            className='about_social_icon'>
-                            <BsWhatsapp />
-                        </a>
-                    </div>
+            <a
+              href='https://www.linkedin.com/in/franco-barrera-06a94b20a/'
+              target="_blank" rel='noreferrer'
+              style={{ color: '#0072b1' }}
+              className='about_social_icon'>
+              <BsLinkedin />
+            </a>
+            <a
+              href='https://github.com/FrancoBarrera99'
+              target="_blank" rel='noreferrer'
+              style={{ color: '#800080' }}
+              className='about_social_icon'>
+              <BsGithub />
+            </a>
+            <a
+              href='https://api.whatsapp.com/send?phone=5493764392192'
+              target="_blank" rel='noreferrer'
+              style={{ color: '#25D366' }}
+              className='about_social_icon'>
+              <BsWhatsapp />
+            </a>
+          </div>
           <div className='scroll_line'></div>
         </div>
       </div>
-      <div className='image_container'>
-        <img src={myImage} alt="My Face" className='face_image' />
+      <div className='diagonal_lines'>
+        
       </div>
     </div>
   )

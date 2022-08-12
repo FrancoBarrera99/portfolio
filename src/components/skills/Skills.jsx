@@ -1,59 +1,60 @@
 import React from 'react'
-import SkillBar from './SkillBar';
-
-import CV from '../../assets/CV - Franco Barrera.pdf'
+import { SiUnrealengine, SiHtml5, SiCss3, SiJavascript, SiSass, SiReact, SiGit, SiCplusplus } from 'react-icons/si'
 
 import './Skills.scss'
 
 
 const Skills = () => {
 
-  const skills = [
-    {
-      id: 1,
-      name: "Unreal Engine 4/5",
-      percentage: "80%"
-    },
-    {
-      id: 2,
-      name: "HTML",
-      percentage: "75%"
-    },
-    {
-      id: 3,
-      name: "JavaScript",
-      percentage: "70%"
-    },
-    {
-      id: 4,
-      name: "CSS",
-      percentage: "60%"
-    },
-    {
-      id: 5,
-      name: "MySQL",
-      percentage: "60%"
-    },
-    {
-      id: 6,
-      name: "C++",
-      percentage: "35%"
-    },
-  ]
+  const reveal = () => {
+
+    let reveals = document.querySelectorAll(".skills_container")
+
+    for (let i = 0; i < reveals.length; i++) {
+
+      let windowHeight = window.innerHeight
+      let elementTop = reveals[i].getBoundingClientRect().top
+      let elementVisible = 100
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active")
+      } else {
+        reveals[i].classList.remove("active")
+      }
+    }
+  }
+
+  window.addEventListener("scroll", reveal)
 
   return (
     <div id='skills' className='skills'>
       <h1 className='skills_title'>&lt;Skills&gt;</h1>
       <div className="skills_container">
-        {skills.map((skill) => {
-          return (<SkillBar
-            key={skill.id}
-            name={skill.name}
-            percentage={skill.percentage}
-          />)
-        })}
+        <div className="skill_icon" style={{ color: 'black' }}>
+          <SiUnrealengine />
+        </div>
+        <div className="skill_icon" style={{ color: '#FFA500' }}>
+          <SiHtml5 />
+        </div>
+        <div className="skill_icon" style={{ color: '#0000FF' }}>
+          <SiCss3 />
+        </div>
+        <div className="skill_icon" style={{ color: '#FFFF00' }}>
+          <SiJavascript />
+        </div>
+        <div className="skill_icon" style={{ color: '#CD6799' }}>
+          <SiSass />
+        </div>
+        <div className="skill_icon" style={{ color: '#61DBFB' }}>
+          <SiReact />
+        </div>
+        <div className="skill_icon" style={{ color: '#F1502F' }}>
+          <SiGit />
+        </div>
+        <div className="skill_icon" style={{ color: '#00599C' }}>
+          <SiCplusplus />
+        </div>
       </div>
-      <a className='cv_button' href={CV} download='CV - Franco Barrera.pdf'> Download my Resume </a>      
       <h1 className='skills_title'>&lt;Skills/&gt;</h1>
     </div>
   )

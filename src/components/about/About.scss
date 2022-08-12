@@ -41,10 +41,21 @@
             }
     
             .about_left_divider{
-                width: 50%;
+                width: 75%;
                 margin: 5% 0;
             }
-            
+
+            .cv_button {
+                background-color: transparent;
+                border-radius: 30px;
+                border: 2px solid orange;
+                padding-inline: 30px;
+                padding-block: 10px;
+                color: white;
+                font-family: 'Fredoka', sans-serif;
+                font-size: 1em;
+                text-decoration: none;
+            }
         }
     
         .about_right {

@@ -1,5 +1,6 @@
 import React from 'react'
 import MyFace from '../../assets/Tom-Shelby.png'
+import CV from '../../assets/CV - Franco Barrera.pdf'
 
 import './About.scss'
 
@@ -16,6 +17,7 @@ const About = () => {
                         looking for new challenges with commitment to leave my mark.
                     </p>
                     <hr className='about_left_divider' />
+                    <a className='cv_button' href={CV} download='CV - Franco Barrera.pdf'> Download my Resume </a>
                 </div>
                 <div className='about_right'>
                     <div className='about_item_wrapper'>
