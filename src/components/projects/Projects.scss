@@ -23,7 +23,20 @@
         display: grid;
         place-items: center center;
         gap: 30px 30px;
-        padding: 10 10% ;
         grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    }
+}
+
+@media (max-width: 625px) {
+    .projects .cards_grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+        
+    }
+}
+
+@media (max-width: 465px) {
+    .projects .cards_grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+        
     }
 }

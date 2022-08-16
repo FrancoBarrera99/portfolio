@@ -50,3 +50,9 @@
         visibility: visible;
     }
 }
+
+@media (max-width: 600px) {
+    .projectcard_container .card_title {
+        writing-mode: inherit;
+    }
+}
