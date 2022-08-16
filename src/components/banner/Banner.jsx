@@ -38,11 +38,7 @@ const Banner = () => {
               <BsWhatsapp />
             </a>
           </div>
-          <div className='scroll_line'></div>
         </div>
-      </div>
-      <div className='diagonal_lines'>
-        
       </div>
     </div>
   )
