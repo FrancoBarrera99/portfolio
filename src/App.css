@@ -29,26 +29,10 @@ h3, h4, h5, h6 {
   font-weight: 200;
 }
 
-h1 {
-  font-size: 4vw;
-}
-
-h2 {
-  font-size: 3vw;
-}
-
-h3 {
-  font-size: 2vw;
-}
-
-h4 {
-  font-size: 1vw;
-}
-
 .app {
   padding-left: 10%;
   padding-right: 10%;
-  background-image: linear-gradient(135deg, #000 25%, #222222 25%, #222222 50%, #000 50%, #000 75%, #222222 75%, #222222);
+  background-image: linear-gradient(to right, #0f0c29, #292555, #24243e);
   overflow: hidden;
 }
 
