@@ -45,7 +45,7 @@ const Experience = () => {
 
   return (
     <div id='experience' className='experience'>
-      <h1 className='experience_title'>&lt;MyJourney&gt;</h1>
+      <h1 className='experience_title'>&lt;Journey&gt;</h1>
       <div className="experience_timeline">
         <div className='experience_line'></div>
         {Milestones.map((milestone) => {
@@ -60,7 +60,7 @@ const Experience = () => {
           )
         })}
       </div>
-      <h1 className='experience_title'>&lt;MyJourney/&gt;</h1>
+      <h1 className='experience_title'>&lt;Journey/&gt;</h1>
     </div>
   )
 }
