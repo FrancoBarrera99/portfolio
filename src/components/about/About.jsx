@@ -5,6 +5,28 @@ import CV from '../../assets/CV - Franco Barrera.pdf'
 import './About.scss'
 
 const About = () => {
+
+    const reveal = () => {
+
+        let reveals = document.querySelectorAll(".about_img")
+    
+        for (let i = 0; i < reveals.length; i++) {
+    
+          let windowHeight = window.innerHeight
+          let elementTop = reveals[i].getBoundingClientRect().top
+          let elementVisible = 100
+    
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active")
+          } else {
+            reveals[i].classList.remove("active")
+          }
+        }
+    
+      }
+    
+      window.addEventListener("scroll", reveal)
+
     return (
         <div id='about' className='about'>
             <h1 className='about_title'>&lt;About&gt;</h1>

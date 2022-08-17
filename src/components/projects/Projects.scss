@@ -1,6 +1,5 @@
 .projects{
     width: 100%;
-    height: fit-content;
     display: flex;
     flex-direction: column;
 
@@ -18,11 +17,10 @@
     .cards_grid {
         align-self: center;
         padding: 5%;
-        height: 85%;
         width: 90%;
         display: grid;
         place-items: center center;
-        gap: 30px 30px;
+        gap: 40px;
         grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
     }
 }
@@ -30,13 +28,11 @@
 @media (max-width: 625px) {
     .projects .cards_grid {
         grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-        
     }
 }
 
 @media (max-width: 465px) {
     .projects .cards_grid {
         grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-        
     }
 }
