@@ -2,7 +2,7 @@
     display: flex;
     z-index: 1;
     width: 100%;
-    top: 2%;
+    top: 0;
     left: 0;
     color: white;
     position: fixed;
@@ -11,6 +11,7 @@
         width: 20%;
         display: flex;
         justify-content: center;
+        align-items: center;
         padding: 10px;
         font-weight: 800;
         font-family: Tangerine, sans-serif;
