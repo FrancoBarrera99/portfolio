@@ -31,6 +31,7 @@ const About = () => {
         <div id='about' className='about'>
             <h1 className='about_title'>&lt;About&gt;</h1>
             <div className='about_container'>
+                <img className='about_img' src={MyFace} alt="shelby" />
                 <div className='about_left'>
                     <h2 className='about_title_main'>About me</h2>
                     <p className='about_text'>
@@ -65,7 +66,6 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <img className='about_img' src={MyFace} alt="shelby" />
             </div>
             <h1 className='about_title'>&lt;About/&gt;</h1>
         </div>

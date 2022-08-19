@@ -6,7 +6,6 @@ import './Header.scss'
 
 const Header = () => {
 
-
   const showMenu = () => {
 
     const navButtons = document.getElementById('nav_buttons')
@@ -15,7 +14,7 @@ const Header = () => {
 
   }
 
-  const exitMenu = () => {
+  const hideMenu = () => {
 
     const navButtons = document.getElementById('nav_buttons')
     navButtons.style.opacity = null
@@ -23,11 +22,12 @@ const Header = () => {
 
   }
 
+  //exit menu on nav_button clicked
   window.onload = function () {
     var anchors = document.getElementsByClassName('nav_button');
     for (var i = 0; i < anchors.length; i++) {
       var anchor = anchors[i];
-      anchor.onclick = exitMenu
+      anchor.onclick = hideMenu
     }
   }
 
