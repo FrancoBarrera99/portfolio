@@ -103,6 +103,7 @@
                 margin-top: 500px;
                 display: flex;
                 flex-direction: column;
+                z-index: 0;
 
                 .about_left_divider{
                     width: 100%;
@@ -117,6 +118,7 @@
             .about_right {
                 padding: 0;
                 margin-top: 30px;
+                z-index: 0;
                 .about_item_wrapper{
                     .about_item_container {
                         text-align: center;
