@@ -52,7 +52,27 @@
 }
 
 @media (max-width: 600px) {
-    .projectcard_container .card_title {
-        writing-mode: inherit;
+    .projectcard_container {
+
+        .card_title {
+            writing-mode: inherit;
+        }
+
+        .card_link_icon {
+            font-size: 0.8rem;
+        }
+
+    }
+}
+
+@media (max-width: 450px) {
+    .projectcard_container {
+
+        .card_link_icon {
+            font-size: 0.5rem;
+            bottom: 4%;
+            right: 4%;
+        }
+
     }
 }
