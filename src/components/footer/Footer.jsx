@@ -1,16 +1,21 @@
 import React from 'react'
 
+import { MdArrowUpward } from 'react-icons/md'
+
 import './Footer.scss'
 
 const Footer = () => {
   return (
     <div id='footer' className='footer'>
-      <h1 className='footer_title'>&lt;Footer&gt;</h1>
-      <div className='footer_container'>
-        <h3 className='footer_title_main'>Page under development :&#40;</h3>
-        <h4 className='footer_title_main'>Come back later!</h4>
+      <div className='footer_top'>
+        <h1 className='footer_top_message'>
+          Let's stay in touch!
+        </h1>
+        <a href='#banner' className='footer_top_button'><MdArrowUpward/></a>
       </div>
-      <h1 className='footer_title'>&lt;Footer/&gt;</h1>
+      <div className='footer_bottom'>
+        Argentina, Misiones - 2022
+      </div>
     </div>
   )
 }

@@ -16,6 +16,7 @@ body {
   overflow-x: hidden;
   position: relative;
   color: rgb(228, 228, 228) !important;
+  background-image: linear-gradient(to right, #0f0c29, #292555, #24243e);
   font-family: 'Fredoka', sans-serif;
 }
 
@@ -32,7 +33,6 @@ h3, h4, h5, h6 {
 .app {
   padding-left: 10%;
   padding-right: 10%;
-  background-image: linear-gradient(to right, #0f0c29, #292555, #24243e);
   overflow: hidden;
 }
 
