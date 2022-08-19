@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2b6d14d7.css",
+    "main.css": "/portfolio/static/css/main.0d14bac0.css",
     "main.js": "/portfolio/static/js/main.fdf55658.js",
     "static/media/test.png": "/portfolio/static/media/test.1356ca73428b37128a68.png",
     "static/media/Tom-Shelby.png": "/portfolio/static/media/Tom-Shelby.cbc34efe3850f4a9d6b1.png",
     "static/media/CV - Franco Barrera.pdf": "/portfolio/static/media/CV - Franco Barrera.1f69472d57977ce88b58.pdf",
     "index.html": "/portfolio/index.html",
-    "main.2b6d14d7.css.map": "/portfolio/static/css/main.2b6d14d7.css.map",
+    "main.0d14bac0.css.map": "/portfolio/static/css/main.0d14bac0.css.map",
     "main.fdf55658.js.map": "/portfolio/static/js/main.fdf55658.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b6d14d7.css",
+    "static/css/main.0d14bac0.css",
     "static/js/main.fdf55658.js"
   ]
 }
