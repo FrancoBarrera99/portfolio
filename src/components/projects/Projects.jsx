@@ -11,8 +11,8 @@ const Projects = () => {
     {
       id:1,
       src: Image,
-      name: "Project 1",
-      link: "https://www.google.com.ar"
+      name: "Shop Card",
+      link: "https://francobarrera99.github.io/shop-product-card/"
     },
     {
       id:2,
