@@ -6,6 +6,30 @@ import './About.scss'
 
 const About = () => {
 
+    const calculateElapsedTime = (newDate) => {
+        const newDateObj = new Date(newDate);
+        const currentDate = new Date();
+      
+        let elapsedTime = currentDate.getFullYear() - newDateObj.getFullYear();
+      
+        const newDateMonth = newDateObj.getMonth();
+        const newDateDay = newDateObj.getDate();
+        const currentMonth = currentDate.getMonth();
+        const currentDay = currentDate.getDate();
+      
+        if (currentMonth < newDateMonth || (currentMonth === newDateMonth && currentDay < newDateDay)) {
+            elapsedTime--;
+        }
+      
+        return elapsedTime;
+      };
+
+    const birthdayDate = '1999-09-24';
+    const experienceDate = '2020-12-16';
+
+    const age = calculateElapsedTime(birthdayDate);
+    const experience = calculateElapsedTime(experienceDate)
+
     const reveal = () => {
 
         let reveals = document.querySelectorAll(".about_img")
@@ -50,7 +74,7 @@ const About = () => {
                         </div>
                         <div className='about_item_container'>
                             <h4 className='about_item_title'>Age</h4>
-                            <h2 className='about_item_content'>22</h2>
+                            <h2 className='about_item_content'>{age}</h2>
                         </div>
                         <div className='about_item_container'>
                             <h4 className='about_item_title'>Country</h4>
@@ -58,7 +82,7 @@ const About = () => {
                         </div>
                         <div className='about_item_container'>
                             <h4 className='about_item_title'>Experience</h4>
-                            <h2 className='about_item_content'>+1 Year</h2>
+                            <h2 className='about_item_content'>+{experience} Years</h2>
                         </div>
                         <div className='about_item_container'>
                             <h4 className='about_item_title'>Languajes</h4>
