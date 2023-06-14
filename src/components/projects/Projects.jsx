@@ -1,7 +1,9 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 
-import Image from '../../assets/test.png'
+import ShopCardImage from '../../assets/ShopCard.png'
+import FlappyDogImage from '../../assets/FlappyDog.png'
+import BarracksAndCastles from '../../assets/BarracksAndCastles.png'
 
 import './Projects.scss'
 
@@ -10,34 +12,22 @@ const Projects = () => {
   const projects = [
     {
       id:1,
-      src: Image,
+      src: ShopCardImage,
       name: "Shop Card",
       link: "https://francobarrera99.github.io/shop-product-card/"
     },
     {
       id:2,
-      src: Image,
-      name: "Project 2",
-      link: "https://www.google.com.ar"
+      src: FlappyDogImage,
+      name: "Flappy Dog",
+      link: "https://github.com/FrancoBarrera99/FlappyDog"
     },
     {
       id:3,
-      src: Image,
-      name: "Project 3",
-      link: "https://www.google.com.ar"
-    },
-    {
-      id:4,
-      src: Image,
-      name: "Project 4",
-      link: "https://www.google.com.ar"
-    },
-    {
-      id:5,
-      src: Image,
-      name: "Project 5",
-      link: "https://www.google.com.ar"
-    },
+      src: BarracksAndCastles,
+      name: "Barracks & Castles",
+      link: "https://github.com/FrancoBarrera99/Barracks-Castles"
+    }
   ]
 
   return (
