@@ -1,5 +1,6 @@
 import React from 'react'
-import { SiUnrealengine, SiHtml5, SiCss3, SiJavascript, SiSass, SiReact, SiGit, SiCplusplus } from 'react-icons/si'
+import { SiUnrealengine, SiHtml5, SiCss3, SiJavascript, SiSass, SiReact, SiGit, SiCplusplus, SiCsharp } from 'react-icons/si'
+import { FaUnity } from 'react-icons/fa'
 
 import './Skills.scss'
 
@@ -33,6 +34,15 @@ const Skills = () => {
         <div className="skill_icon" style={{ color: 'black' }}>
           <SiUnrealengine />
         </div>
+        <div className="skill_icon" style={{ color: '#00599C' }}>
+          <SiCplusplus />
+        </div>
+        <div className="skill_icon" style={{ color: '#808080' }}>
+          <FaUnity />
+        </div>
+        <div className="skill_icon" style={{ color: '#9B4F96' }}>
+          <SiCsharp />
+        </div>
         <div className="skill_icon" style={{ color: '#FFA500' }}>
           <SiHtml5 />
         </div>
@@ -50,9 +60,6 @@ const Skills = () => {
         </div>
         <div className="skill_icon" style={{ color: '#F1502F' }}>
           <SiGit />
-        </div>
-        <div className="skill_icon" style={{ color: '#00599C' }}>
-          <SiCplusplus />
         </div>
       </div>
       <h1 className='skills_title'>&lt;Skills/&gt;</h1>
