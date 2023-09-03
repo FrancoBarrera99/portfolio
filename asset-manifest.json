@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4648319f.css",
-    "main.js": "/portfolio/static/js/main.f63e606e.js",
+    "main.js": "/portfolio/static/js/main.1cf8f9c4.js",
     "static/media/Cubex.png": "/portfolio/static/media/Cubex.2db84f5ee87c50c517b3.png",
     "static/media/Tom-Shelby.png": "/portfolio/static/media/Tom-Shelby.cbc34efe3850f4a9d6b1.png",
     "static/media/BarracksAndCastles.png": "/portfolio/static/media/BarracksAndCastles.498206ecb067a869404c.png",
-    "static/media/CV - Franco Barrera.pdf": "/portfolio/static/media/CV - Franco Barrera.1f69472d57977ce88b58.pdf",
     "static/media/ShopCard.png": "/portfolio/static/media/ShopCard.6a56411b705b771ab869.png",
+    "static/media/CV - Franco Barrera.pdf": "/portfolio/static/media/CV - Franco Barrera.c1430c743bfb495355d8.pdf",
     "static/media/GraVikingo.png": "/portfolio/static/media/GraVikingo.5d0d135f631f336d7984.png",
     "static/media/FlappyDog.png": "/portfolio/static/media/FlappyDog.17b2fccfa63e9b5e8809.png",
     "index.html": "/portfolio/index.html",
     "main.4648319f.css.map": "/portfolio/static/css/main.4648319f.css.map",
-    "main.f63e606e.js.map": "/portfolio/static/js/main.f63e606e.js.map"
+    "main.1cf8f9c4.js.map": "/portfolio/static/js/main.1cf8f9c4.js.map"
   },
   "entrypoints": [
     "static/css/main.4648319f.css",
-    "static/js/main.f63e606e.js"
+    "static/js/main.1cf8f9c4.js"
   ]
 }
