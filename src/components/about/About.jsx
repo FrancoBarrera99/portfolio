@@ -9,20 +9,20 @@ const About = () => {
     const calculateElapsedTime = (newDate) => {
         const newDateObj = new Date(newDate);
         const currentDate = new Date();
-      
+
         let elapsedTime = currentDate.getFullYear() - newDateObj.getFullYear();
-      
+
         const newDateMonth = newDateObj.getMonth();
         const newDateDay = newDateObj.getDate();
         const currentMonth = currentDate.getMonth();
         const currentDay = currentDate.getDate();
-      
+
         if (currentMonth < newDateMonth || (currentMonth === newDateMonth && currentDay < newDateDay)) {
             elapsedTime--;
         }
-      
+
         return elapsedTime;
-      };
+    };
 
     const birthdayDate = '1999-09-24';
     const experienceDate = '2020-12-16';
@@ -33,23 +33,23 @@ const About = () => {
     const reveal = () => {
 
         let reveals = document.querySelectorAll(".about_img")
-    
+
         for (let i = 0; i < reveals.length; i++) {
-    
-          let windowHeight = window.innerHeight
-          let elementTop = reveals[i].getBoundingClientRect().top
-          let elementVisible = 100
-    
-          if (elementTop < windowHeight - elementVisible) {
-            reveals[i].classList.add("active")
-          } else {
-            reveals[i].classList.remove("active")
-          }
+
+            let windowHeight = window.innerHeight
+            let elementTop = reveals[i].getBoundingClientRect().top
+            let elementVisible = 100
+
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active")
+            } else {
+                reveals[i].classList.remove("active")
+            }
         }
-    
-      }
-    
-      window.addEventListener("scroll", reveal)
+
+    }
+
+    window.addEventListener("scroll", reveal)
 
     return (
         <div id='about' className='about'>
@@ -59,9 +59,10 @@ const About = () => {
                 <div className='about_left'>
                     <h2 className='about_title_main'>About me</h2>
                     <p className='about_text'>
-                        I'm a Software Developer and System Engineering Student passionate for technology,
-                        currently developing personal and professional projects both Web and 3D,
-                        looking for new challenges with commitment to leave my mark.
+                        Passionate Game Developer pursuing a Systems Engineering degree. Strong foundation in system design and software
+                        development principles. Thrives in collaborative environments and contributes to innovative projects. Keen interest in
+                        graphics, game development, and cutting-edge technologies. Always looking for opportunities to enhance knowledge
+                        and stay up-to-date with industry trends.
                     </p>
                     <hr className='about_left_divider' />
                     <a className='cv_button' href={CV} download='CV - Franco Barrera.pdf'> Download Resume </a>
