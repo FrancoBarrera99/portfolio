@@ -86,7 +86,7 @@ const About = () => {
                             <h2 className='about_item_content'>+{experience} Years</h2>
                         </div>
                         <div className='about_item_container'>
-                            <h4 className='about_item_title'>Languajes</h4>
+                            <h4 className='about_item_title'>Languages</h4>
                             <h2 className='about_item_content'>Spanish and English</h2>
                         </div>
                     </div>
