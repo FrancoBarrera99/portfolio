@@ -11,7 +11,7 @@ const Experience = () => {
       organization: "CTRL PARADISE",
       title: "Game Developer",
       date: "August 2023 - Now",
-      description: "As the Game Developer in my current role at CTRL PARADISE, I play a pivotal role in orchestrating the creation of immersive horror video game experiences. I manage development teams, utilizing agile methodologies, and fostering seamless collaboration between multidisciplinary teams. My responsibilities span from architecting a componentized framework to enhance reusability to crafting gameplay mechanics and designing captivating graphical interfaces with CommonUI."
+      description: "As a Game Developer in my current role at CTRL PARADISE, I play a pivotal role in orchestrating the creation of immersive horror video game experiences. I manage development teams, utilizing agile methodologies, and fostering seamless collaboration between multidisciplinary teams. My responsibilities span from architecting a componentized framework to enhance reusability to crafting gameplay mechanics and designing captivating graphical interfaces with CommonUI."
     },
     {
       id: 2,
@@ -23,9 +23,9 @@ const Experience = () => {
     {
       id: 1,
       organization: "FANLAB",
-      title: "Lead Developer",
+      title: "Lead Game Developer",
       date: "December 2020 - April 2022",
-      description: "Skilled in managing developer teams using agile methodologies and mediating between multidisciplinary teams to ensure effective collaboration, I worked as a Lead Developer at FANIOT. Expertise includes API integration, replication and gameplay development in Unreal Engine 4. Actively explored the Virtual Reality field with UE5 and OculusVR. Proficiently contributed to Front-end Web Development with React, Redux, Axios, RESTAPIs."
+      description: "Skilled in managing developer teams using agile methodologies and mediating between multidisciplinary teams to ensure effective collaboration, I worked as a Lead Game Developer at FANIOT. Expertise includes API integration, replication and gameplay development in Unreal Engine 4. Actively explored the Virtual Reality field with UE5 and OculusVR. Proficiently contributed to Front-end Web Development with React, Redux, Axios, RESTAPIs."
     },
 
   ]
