@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.19c2c85a.css",
-    "main.js": "/portfolio/static/js/main.dbfbf9f4.js",
+    "main.css": "/portfolio/static/css/main.32cb77dd.css",
+    "main.js": "/portfolio/static/js/main.f8e07aeb.js",
     "static/media/Me.jpg": "/portfolio/static/media/Me.1f3c192c7861313c2f17.jpg",
     "static/media/Cubex.png": "/portfolio/static/media/Cubex.2db84f5ee87c50c517b3.png",
     "static/media/BarracksAndCastles.png": "/portfolio/static/media/BarracksAndCastles.498206ecb067a869404c.png",
     "static/media/ShopCard.png": "/portfolio/static/media/ShopCard.6a56411b705b771ab869.png",
-    "static/media/CV - Franco Barrera.pdf": "/portfolio/static/media/CV - Franco Barrera.37a582115ba52bda2086.pdf",
+    "static/media/CV - Franco Barrera.pdf": "/portfolio/static/media/CV - Franco Barrera.d8946034a0b7e9215453.pdf",
+    "static/media/FANLab.png": "/portfolio/static/media/FANLab.de92efd587e0eafd1db7.png",
+    "static/media/Vivaland.png": "/portfolio/static/media/Vivaland.afedd5394d89d1716784.png",
     "static/media/GraVikingo.png": "/portfolio/static/media/GraVikingo.5d0d135f631f336d7984.png",
     "static/media/FlappyDog.png": "/portfolio/static/media/FlappyDog.17b2fccfa63e9b5e8809.png",
     "index.html": "/portfolio/index.html",
-    "main.19c2c85a.css.map": "/portfolio/static/css/main.19c2c85a.css.map",
-    "main.dbfbf9f4.js.map": "/portfolio/static/js/main.dbfbf9f4.js.map"
+    "main.32cb77dd.css.map": "/portfolio/static/css/main.32cb77dd.css.map",
+    "main.f8e07aeb.js.map": "/portfolio/static/js/main.f8e07aeb.js.map"
   },
   "entrypoints": [
-    "static/css/main.19c2c85a.css",
-    "static/js/main.dbfbf9f4.js"
+    "static/css/main.32cb77dd.css",
+    "static/js/main.f8e07aeb.js"
   ]
 }
