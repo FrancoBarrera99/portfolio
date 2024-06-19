@@ -12,7 +12,7 @@
     .footer_top {
         display: flex;
         align-items: center;
-        width: 100%;
+        width: 40%;
         height: 80%;
 
         .footer_top_message {
@@ -34,6 +34,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-left: 15px;
         }
     }
 

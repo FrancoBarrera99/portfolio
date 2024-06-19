@@ -1,5 +1,5 @@
 import React from 'react'
-import MyFace from '../../assets/Tom-Shelby.png'
+import MyFace from '../../assets/Me.jpg'
 import CV from '../../assets/CV - Franco Barrera.pdf'
 
 import './About.scss'
@@ -55,7 +55,7 @@ const About = () => {
         <div id='about' className='about'>
             <h1 className='about_title'>&lt;About&gt;</h1>
             <div className='about_container'>
-                <img className='about_img' src={MyFace} alt="shelby" />
+                <img className='about_img' src={MyFace} alt="Me" />
                 <div className='about_left'>
                     <h2 className='about_title_main'>About me</h2>
                     <p className='about_text'>
@@ -87,7 +87,7 @@ const About = () => {
                         </div>
                         <div className='about_item_container'>
                             <h4 className='about_item_title'>Languages</h4>
-                            <h2 className='about_item_content'>Spanish and English</h2>
+                            <h2 className='about_item_content'>Spanish / English</h2>
                         </div>
                     </div>
                 </div>

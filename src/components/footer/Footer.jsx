@@ -9,7 +9,7 @@ const Footer = () => {
     <div id='footer' className='footer'>
       <div className='footer_top'>
         <h1 className='footer_top_message'>
-          Let's stay in touch!
+          Nothing else to see here...
         </h1>
         <a href='#banner' className='footer_top_button'><MdArrowUpward/></a>
       </div>

@@ -1,6 +1,8 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 
+import VivalandImage from '../../assets/Vivaland.png'
+import FanlabImage from '../../assets/FANLab.png'
 import ShopCardImage from '../../assets/ShopCard.png'
 import FlappyDogImage from '../../assets/FlappyDog.png'
 import BarracksAndCastlesImage from '../../assets/BarracksAndCastles.png'
@@ -14,35 +16,48 @@ const Projects = () => {
   const projects = [
     {
       id:1,
+      src: VivalandImage,
+      name: "Vivaland",
+      description: "3D multiplayer life simulation game",
+      link: "https://vivalandgame.com/"
+    },
+    {
+      id:2,
+      src: FanlabImage,
+      name: "FANLAB 3D",
+      description: "3D and Virtual Reality educational simulation platform",
+      link: "https://fanlab.com.ar/simuladorfl/"
+    },
+    {
+      id:3,
       src: FlappyDogImage,
       name: "Flappy Dog",
       description: "Flappy Bird clone in C++ with SDL2",
       link: "https://github.com/FrancoBarrera99/FlappyDog"
     },
     {
-      id:2,
+      id:4,
       src: GraVikingoImage,
       name: "GraVikingo",
       description: "2D Platformer developed in Unity 3D for the Women's Game Jam 2023",
       link: "https://morcroc.itch.io/gravikingo"
     },
-      
     {
-      id:3,
+      id:5,
       src: CubexImage,
       name: "Cubex",
       description: "Wave-based survival with isometric view",
       link: "https://github.com/FrancoBarrera99/Cubex"
     },
     {
-      id:4,
+      id:6,
       src: BarracksAndCastlesImage,
       name: "Barracks & Castles",
       description: "Toony Medieval Multiplayer Strategy Game with Gameplay Ability System",
       link: "https://github.com/FrancoBarrera99/Barracks-Castles"
     },
     {
-      id:5,
+      id:7,
       src: ShopCardImage,
       name: "Shop Card",
       description: "Web animated 3D product card presentation",
