@@ -10,7 +10,7 @@ const Experience = () => {
       id: 4,
       organization: "HIVE5 INTERACTIVE",
       title: "Senior Game Developer",
-      date: "August 2023 - Now",
+      date: "November 2023 - Now",
       description: `As a Senior Game Developer at Hive5 Interactive, I go beyond creating captivating gaming experiences. My role is pivotal in enhancing workflow efficiency, minimizing production errors, and strengthening project documentation through UML architectural designs, code guidelines and iterative development approaches.<br><br>
       In the development of -Vivaland-, a 3D multiplayer life simulation game, I focus on designing technical solutions and implementing gameplay mechanics. While collaborating closely with team members, I refine existing features to ensure a seamless gaming experience while simultaneously raising documentation standards.<br><br>
       Furthermore, I am deeply committed to maintaining the highest quality standards for the product. I invest significant effort in creating intuitive graphical user interfaces (GUI) and optimizing existing features. This dedication not only enhances the overall gaming experience but also elevates the product's quality, making a substantial contribution to the project's success.`
