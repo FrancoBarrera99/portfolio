@@ -9,9 +9,9 @@ const Experience = () => {
     {
       id: 4,
       organization: "HIVE5 INTERACTIVE",
-      title: "Senior Game Developer",
+      title: "Game Developer",
       date: "November 2023 - NOW",
-      description: `As a Senior Game Developer at Hive5 Interactive, I go beyond creating captivating gaming experiences. My role is pivotal in enhancing workflow efficiency, minimizing production errors, and strengthening project documentation through UML architectural designs, code guidelines and iterative development approaches.<br><br>
+      description: `As a Game Developer at Hive5 Interactive, I go beyond creating captivating gaming experiences. My role is pivotal in enhancing workflow efficiency, minimizing production errors, and strengthening project documentation through UML architectural designs, code guidelines and iterative development approaches.<br><br>
       In the development of -Vivaland-, a 3D multiplayer life simulation game, I focus on designing technical solutions and implementing gameplay mechanics. While collaborating closely with team members, I refine existing features to ensure a seamless gaming experience while simultaneously raising documentation standards.<br><br>
       Furthermore, I am deeply committed to maintaining the highest quality standards for the product. I invest significant effort in creating intuitive graphical user interfaces (GUI) and optimizing existing features. This dedication not only enhances the overall gaming experience but also elevates the product's quality, making a substantial contribution to the project's success.`
     },
@@ -20,23 +20,22 @@ const Experience = () => {
       organization: "CTRL PARADISE",
       title: "Game Developer",
       date: "August 2023 - December 2023",
-      description: "As a Game Developer in my current role at CTRL PARADISE, I play a pivotal role in orchestrating the creation of immersive horror video game experiences. I manage development teams, utilizing agile methodologies, and fostering seamless collaboration between multidisciplinary teams. My responsibilities span from architecting a componentized framework to enhance reusability to crafting gameplay mechanics and designing captivating graphical interfaces with CommonUI."
+      description: "As a Game Developer at CTRL PARADISE, I played a pivotal role in orchestrating the creation of immersive horror video game experiences. I managed development teams, utilizing agile methodologies, and fostered seamless collaboration between multidisciplinary teams. My responsibilities spanned from architecting a componentized framework to enhance reusability to crafting gameplay mechanics and designing captivating graphical interfaces with CommonUI."
     },
     {
       id: 2,
       organization: "FANLAB",
       title: "Game Developer",
       date: "July 2022 - August 2023",
-      description: "As a Game Developer at FANIOT, I specialize in designing and implementing gameplay mechanics using the Gameplay Ability System in UE5. I have also contributed to AI development for NPCs for efficient decision-making. Additionally, I have experience integrating GraphQL APIs to enhance game functionality."
+      description: "As a Game Developer at FANLAB, I specialized in designing and implementing gameplay mechanics using the Gameplay Ability System in UE5. I also contributed to AI development for NPCs for efficient decision-making. Additionally, I gained experience integrating GraphQL APIs to enhance game functionality."
     },
     {
       id: 1,
       organization: "FANLAB",
       title: "Lead Game Developer",
       date: "December 2020 - April 2022",
-      description: "Skilled in managing developer teams using agile methodologies and mediating between multidisciplinary teams to ensure effective collaboration, I worked as a Lead Game Developer at FANIOT. Expertise includes API integration, replication and gameplay development in Unreal Engine 4. Actively explored the Virtual Reality field with UE5 and OculusVR. Proficiently contributed to Front-end Web Development with React, Redux, Axios, RESTAPIs."
-    },
-
+      description: "Skilled in managing developer teams using agile methodologies and mediating between multidisciplinary teams to ensure effective collaboration, I worked as a Lead Game Developer at FANLAB. My expertise included API integration, replication, and gameplay development in Unreal Engine 4. I actively explored the Virtual Reality field with UE5 and OculusVR and contributed proficiently to Front-end Web Development with React, Redux, Axios, and REST APIs."
+    }
   ]
 
   const reveal = () => {

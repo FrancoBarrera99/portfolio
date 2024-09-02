@@ -34,7 +34,7 @@
             min-width: 200px;
             min-height: 200px;
             border: 2px solid orange;
-            border-radius: 50%;
+            border-radius: 20px;
             box-shadow: 0 0 10px orange;
             display: flex;
             flex-direction: column;
@@ -42,6 +42,12 @@
             justify-content: center;
             align-items: center;
             font-size: 8rem;
+        }
+
+        .skill_title {
+            margin-top: 8px;
+            font-size: 1rem;
+            color: #ffffff;
         }
     }
 
